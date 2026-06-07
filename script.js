@@ -3,16 +3,9 @@ const menuData = [
     // ============================================
     // === BREAKFAST / SNACKS (10 Items) ===
     // ============================================
+    
     {
         id: 1,
-        name: "Golden Aloo Paratha",
-        category: "breakfast",
-        price: 8.99,
-        img: "img/img.4.png",
-        description: "Whole wheat flatbread stuffed with spiced mashed potatoes, served with curd and pickle."
-    },
-    {
-        id: 2,
         name: "Crispy Masala Dosa",
         category: "breakfast",
         price: 10.99,
@@ -20,7 +13,7 @@ const menuData = [
         description: "Fermented rice & lentil crepe filled with spiced potato filling, served with sambar."
     },
     {
-        id: 3,
+        id: 2,
         name: "Steamed Idli Sambar",
         category: "breakfast",
         price: 7.99,
@@ -28,7 +21,7 @@ const menuData = [
         description: "Soft fluffy rice cakes served with hot lentil stew (sambar) and coconut chutney."
     },
     {
-        id: 4,
+        id: 3,
         name: "Punjabi Poha",
         category: "breakfast",
         price: 6.99,
@@ -36,7 +29,7 @@ const menuData = [
         description: "Flattened rice cooked with onions, peanuts, and mild spices, topped with sev."
     },
     {
-        id: 5,
+        id: 4,
         name: "Gobi Paratha",
         category: "breakfast",
         price: 9.49,
@@ -44,7 +37,7 @@ const menuData = [
         description: "Whole wheat bread stuffed with spiced cauliflower, cooked on tawa with ghee."
     },
     {
-        id: 6,
+        id: 5,
         name: "Chole Bhature",
         category: "breakfast",
         price: 11.99,
@@ -52,7 +45,7 @@ const menuData = [
         description: "Spiced white chickpeas curry served with fluffy deep-fried bread (bhatura)."
     },
     {
-        id: 7,
+        id: 6,
         name: "Puri Sabzi",
         category: "breakfast",
         price: 8.49,
@@ -60,7 +53,7 @@ const menuData = [
         description: "Deep-fried puffy bread (puri) served with potato-based spicy curry (sabzi)."
     },
     {
-        id: 8,
+        id: 7,
         name: "Onion Uttapam",
         category: "breakfast",
         price: 9.99,
@@ -68,7 +61,7 @@ const menuData = [
         description: "Thick rice-lentil pancake topped with chopped onions, tomatoes, and green chilies."
     },
     {
-        id: 9,
+        id: 8,
         name: "Methi Thepla",
         category: "breakfast",
         price: 7.49,
@@ -76,7 +69,7 @@ const menuData = [
         description: "Gujarati flatbread made with fresh fenugreek leaves and yogurt."
     },
     {
-        id: 10,
+        id: 9,
         name: "Bedmi Puri",
         category: "breakfast",
         price: 8.99,
@@ -88,7 +81,7 @@ const menuData = [
     // === LUNCH / MAIN COURSES (10 Items) ===
     // ============================================
     {
-        id: 11,
+        id: 10,
         name: "Butter Chicken",
         category: "lunch",
         price: 16.99,
@@ -96,7 +89,7 @@ const menuData = [
         description: "Tender chicken in creamy tomato-based gravy with butter and aromatic spices."
     },
     {
-        id: 12,
+        id: 11,
         name: "Dal Makhani",
         category: "lunch",
         price: 12.99,
@@ -104,7 +97,7 @@ const menuData = [
         description: "Slow-cooked black lentils & kidney beans in rich, creamy tomato gravy."
     },
     {
-        id: 13,
+        id: 12,
         name: "Chicken 65",
         category: "lunch",
         price: 14.99,
@@ -112,7 +105,7 @@ const menuData = [
         description: "Spicy deep-fried chicken bursting with curry leaves and green chilies."
     },
     {
-        id: 14,
+        id: 13,
         name: "Roti & Paneer Makhani",
         category: "lunch",
         price: 13.99,
@@ -120,15 +113,7 @@ const menuData = [
         description: "Soft whole wheat roti served with cottage cheese in creamy gravy."
     },
     {
-        id: 15,
-        name: "Hyderabadi Dum Biryani",
-        category: "lunch",
-        price: 18.99,
-        img: "DoorDelights/img/img.15.png",
-        description: "Layers of basmati rice & succulent meat cooked with saffron in dum style."
-    },
-    {
-        id: 16,
+        id: 14,
         name: "Palak Paneer",
         category: "lunch",
         price: 13.49,
@@ -136,7 +121,7 @@ const menuData = [
         description: "Cottage cheese cubes in smooth, creamy spinach gravy with ginger."
     },
     {
-        id: 17,
+        id: 15,
         name: "Chicken Tikka Masala",
         category: "lunch",
         price: 17.49,
@@ -144,7 +129,7 @@ const menuData = [
         description: "Grilled tandoori chicken chunks in rich, spiced onion-tomato creamy gravy."
     },
     {
-        id: 18,
+        id: 16,
         name: "Shahi Paneer",
         category: "lunch",
         price: 14.99,
@@ -152,7 +137,7 @@ const menuData = [
         description: "Royal cottage cheese curry made with nuts, cream, and aromatic spices."
     },
     {
-        id: 19,
+        id: 17,
         name: "Vegetable Biryani",
         category: "lunch",
         price: 12.99,
@@ -160,7 +145,7 @@ const menuData = [
         description: "Fragrant basmati rice layered with mixed vegetables and biryani spices."
     },
     {
-        id: 20,
+        id: 18,
         name: "Egg Curry",
         category: "lunch",
         price: 11.99,
@@ -172,7 +157,7 @@ const menuData = [
     // === DINNER / TANDOOR / CURRIES (10 Items) ===
     // ============================================
     {
-        id: 21,
+        id: 19,
         name: "Tandoori Roti",
         category: "dinner",
         price: 2.99,
@@ -180,7 +165,7 @@ const menuData = [
         description: "Traditional whole wheat bread baked in the authentic tandoor clay oven."
     },
     {
-        id: 22,
+        id: 20,
         name: "Tandoori Chicken Full",
         category: "dinner",
         price: 21.99,
@@ -188,7 +173,7 @@ const menuData = [
         description: "Half chicken marinated in yogurt and spices, grilled to perfection in tandoor."
     },
     {
-        id: 23,
+        id: 21,
         name: "Chicken Chettinad",
         category: "dinner",
         price: 17.99,
@@ -196,7 +181,7 @@ const menuData = [
         description: "Fiery Tamil Nadu curry made with freshly ground chettinad spices."
     },
     {
-        id: 24,
+        id: 22,
         name: "Fish Fry Meen Varuval",
         category: "dinner",
         price: 16.49,
@@ -204,7 +189,7 @@ const menuData = [
         description: "Crispy fried fish marinated in aromatic South Indian masala."
     },
     {
-        id: 25,
+        id: 23,
         name: "Kadahi Paneer",
         category: "dinner",
         price: 14.99,
@@ -212,7 +197,7 @@ const menuData = [
         description: "Cottage cheese cooked in a traditional wok with onions and tomato gravy."
     },
     {
-        id: 26,
+        id: 24,
         name: "Butter Garlic Naan",
         category: "dinner",
         price: 3.99,
@@ -220,7 +205,7 @@ const menuData = [
         description: "Soft leavened bread baked in tandoor, brushed with butter and garlic."
     },
     {
-        id: 27,
+        id: 25,
         name: "Lamb Curry",
         category: "dinner",
         price: 19.99,
@@ -228,7 +213,7 @@ const menuData = [
         description: "Tender lamb pieces cooked in traditional onion-gravy with aromatic spices."
     },
     {
-        id: 28,
+        id: 26,
         name: "Prawns Masala",
         category: "dinner",
         price: 18.99,
@@ -236,7 +221,7 @@ const menuData = [
         description: "Succulent prawns tossed in spiced tomato and onion masala."
     },
     {
-        id: 29,
+        id: 27,
         name: "Chicken Lollipop",
         category: "dinner",
         price: 15.99,
@@ -244,7 +229,7 @@ const menuData = [
         description: "Deep-fried chicken wings in hot and Indo-Chinese spicy sauce."
     },
     {
-        id: 30,
+        id: 28,
         name: "Malai Kofta",
         category: "dinner",
         price: 13.99,
