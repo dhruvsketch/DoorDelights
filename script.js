@@ -8,7 +8,7 @@ const menuData = [
         name: "Golden Aloo Paratha",
         category: "breakfast",
         price: 8.99,
-        img: "DoorDelights/img/img.4.png",
+        img: "img/img.4.png",
         description: "Whole wheat flatbread stuffed with spiced mashed potatoes, served with curd and pickle."
     },
     {
