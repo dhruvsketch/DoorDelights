@@ -8,7 +8,7 @@ const menuData = [
         name: "Golden Aloo Paratha",
         category: "breakfast",
         price: 8.99,
-        img: "C:/Users/jhasa/HTML/DoorDelights/img/img.1.png",
+        img: "DoorDelights/img/img.1.png",
         description: "Whole wheat flatbread stuffed with spiced mashed potatoes, served with curd and pickle."
     },
     {
@@ -124,7 +124,7 @@ const menuData = [
         name: "Hyderabadi Dum Biryani",
         category: "lunch",
         price: 18.99,
-        img: "C:/Users/jhasa/HTML/DoorDelights/img/img.15.png",
+        img: "DoorDelights/img/img.15.png",
         description: "Layers of basmati rice & succulent meat cooked with saffron in dum style."
     },
     {
